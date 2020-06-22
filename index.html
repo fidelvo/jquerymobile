@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5/main.css">
+	<script src="jquery.mobile-1.4.5/jquery.min.js"></script>
+	<script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="uno" class="page-full">
+	<div data-role="header" class="header">
+		<h1>Actividad 3</h1>
+	</div>
+	<div role="main" class="ui-content ui-content-full text-center">
+    <div class="align-center">
+      <img src="img/ieu.png" class="margin" alt="IEU">
+    </div>
+		<a href="#dos" class="ui-btn ui-icon-edit ui-btn-icon-top ui-shadow ui-corner-all ui-btn-inline btn-center ui-btn-b">Actividad</a>
+		<a href="#info" class="ui-btn ui-icon-user ui-btn-icon-top ui-shadow ui-corner-all ui-btn-inline btn-center ui-btn-b" data-rel="dialog" data-transition="pop">Materia</a>
+	</div>
+	<div data-role="footer" class="footer" data-theme="a">
+		<h4>IEU - Instituto de Estudios Universitarios</h4>
+	</div>
+</div>
+<div data-role="page" id="dos" class="page-full">
+	<div data-role="header" class="header">
+		<h1>Actividad 3</h1>
+	</div>
+	<div role="main" class="ui-content ui-content-full text-center">
+    <div class="margin">
+      <h3>Actividad 3</h3>
+      <p>Creación de una aplicación de desarrollo para nuevos dispositivos.</p>
+      <br>
+      <strong>Objetivo</strong>
+      <p>Identificar los pasos a seguir en el proceso de instalación del entorno de programación para nuevos dispositivos.</p>
+      <h2>jQuery Mobile</h2>
+    </div>
+		<a href="#uno" data-direction="reverse" class="ui-btn ui-icon-home ui-btn-icon-top ui-shadow ui-corner-all ui-btn-inline btn-center ui-btn-b">Inicio</a>
+	</div>
+	<div data-role="footer" class="footer" data-theme="a">
+		<h4>IEU - Instituto de Estudios Universitarios</h4>
+	</div>
+</div>
+<div data-role="page" id="info">
+	<div data-role="header" data-theme="b">
+		<h1>Información de la materia</h1>
+	</div>
+	<div role="main" class="ui-content">
+    <p><strong>Materia</strong><br>Nuevas tecnologías móviles de desarrollo web</p>
+    <p><strong>Docente</strong><br>Emmanuel Hernández Ortiz</p>
+    <p><strong>Alumno</strong><br>Fidel Valencia Ordaz</p>
+    <p><strong>Matricula</strong><br>127331</p>
+    <p><strong>Grupo</strong><br>IS55</p>
+		<a href="#uno" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-b">Aceptar</a>
+	</div>
+</div>
+</body>
+</html>
