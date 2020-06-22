@@ -1,0 +1,37 @@
+.header {
+  text-transform: uppercase;
+  background-color: #2ccea3 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+.page-full {
+  height: 100vh;
+}
+
+.ui-content-full {
+  height: calc(100vh - 121px);
+}
+
+.margin {
+  margin: 3em;
+}
+
+.align-center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-center {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #ff510d;
+  color: #fff;
+  text-shadow: none;
+}
